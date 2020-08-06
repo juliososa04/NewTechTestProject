@@ -1,0 +1,6 @@
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Entities\bin\Debug\LibraryAPI.Entities.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Entities\bin\Debug\LibraryAPI.Entities.pdb
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Entities\obj\Debug\LibraryAPI.Entities.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Entities\obj\Debug\LibraryAPI.Entities.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Entities\obj\Debug\LibraryAPI.Entities.pdb
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Entities\obj\Debug\LibraryAPI.Entities.csprojAssemblyReference.cache

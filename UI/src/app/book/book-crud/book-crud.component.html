@@ -1,0 +1,86 @@
+<mat-toolbar>
+    <span>{{service.ViwMode}}</span>
+    <span class="fill-remaining-space"></span>
+    <button class="btn-dialog-close" mat-stroked-button (click)="onClose()" tabIndex="-1"><mat-icon>clear</mat-icon></button>
+</mat-toolbar>
+<form [formGroup]="service.form" class="normal-form">
+ <fieldset [disabled]="service.ViwModeDisabled" >  
+  <mat-grid-list cols="3" rowHeight="90px" >
+    <mat-grid-tile>
+      <div class="control-container">
+        <input type="hidden" formControlName="ID" />
+        <mat-form-field>
+          <input matInput placeholder="Title*" formControlName="Title" />
+          <mat-error>This field is mandatory.</mat-error>
+        </mat-form-field>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <div class="control-container text-right">
+          <mat-form-field>
+            <input type="number" matInput placeholder="Page Count*" formControlName="PageCount" />
+            <mat-error>This field is mandatory.</mat-error>
+          </mat-form-field>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <div class="control-container">
+          <mat-form-field>
+            <input matInput type="date" placeholder="Publish Date*" formControlName="PublishDate" />
+            <mat-error>This field is mandatory.</mat-error>
+          </mat-form-field>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="3">
+          <div class="control-container">
+            <mat-form-field>
+                <textarea matInput placeholder="Description*" formControlName="Description" ></textarea>
+                <mat-error>This field is mandatory.</mat-error>
+            </mat-form-field>
+          </div>
+        </mat-grid-tile>
+     
+          <mat-grid-tile [colspan]="3">
+              <div class="control-container">
+                <mat-form-field>
+                    <textarea matInput placeholder="Excerpt*" formControlName="Excerpt" ></textarea>
+                    <mat-error>This field is mandatory.</mat-error>
+                </mat-form-field>
+              </div>
+            </mat-grid-tile>
+            <mat-grid-tile [colspan]="3" [rowspan]="3">
+                <div class="control-container">
+                  <app-author-list [BookId]="service.form.controls['ID'].value"></app-author-list>
+               </div> 
+            </mat-grid-tile>  
+    
+    <mat-grid-tile  [colspan]="3">
+        <div class="control-container">
+    
+          <div class="add-bottom-padding">
+          
+            </div>
+            <div class="button-row">
+                <button mat-raised-button color="primary" [disabled]="service.form.invalid || service.ViwModeDisabled" (click)="onSubmit()">Submit</button>
+                <button mat-raised-button color="default" [disabled]="service.form.controls['ID'].value!=null" (click)="onClear()">Clear</button>
+                <button mat-raised-button color="warn" [disabled]="service.ViwModeDisabled" (click)="onClose()">Close</button>
+            </div>
+        </div>
+        <div class="add-bottom-padding">
+          
+        </div>
+      </mat-grid-tile>
+  </mat-grid-list>
+  <!-- <mat-grid-list cols="3">
+    <mat-toolbar>
+        <span>Authors</span>
+        <span class="fill-remaining-space"></span>
+    </mat-toolbar>
+    <mat-grid-tile [colspan]="3">
+        <div class="control-container">
+          <app-author-list></app-author-list>
+       </div> 
+    </mat-grid-tile>   
+  </mat-grid-list> -->
+  </fieldset>
+</form>

@@ -1,0 +1,9 @@
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\bin\Debug\LibraryAPI.Helper.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\bin\Debug\LibraryAPI.Helper.pdb
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\obj\Debug\LibraryAPI.Helper.csprojAssemblyReference.cache
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\obj\Debug\LibraryAPI.Helper.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\obj\Debug\LibraryAPI.Helper.csproj.CopyComplete
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\obj\Debug\LibraryAPI.Helper.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.Helper\obj\Debug\LibraryAPI.Helper.pdb

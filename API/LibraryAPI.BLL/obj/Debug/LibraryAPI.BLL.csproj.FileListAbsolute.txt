@@ -1,0 +1,13 @@
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\bin\Debug\LibraryAPI.BLL.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\bin\Debug\LibraryAPI.BLL.pdb
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\bin\Debug\LibraryAPI.Entities.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\bin\Debug\LibraryAPI.Helper.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\bin\Debug\LibraryAPI.Entities.pdb
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\bin\Debug\LibraryAPI.Helper.pdb
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\obj\Debug\LibraryAPI.BLL.csprojAssemblyReference.cache
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\obj\Debug\LibraryAPI.BLL.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\obj\Debug\LibraryAPI.BLL.csproj.CopyComplete
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\obj\Debug\LibraryAPI.BLL.dll
+C:\Users\julio\source\repos\LibraryAPI\LibraryAPI.BLL\obj\Debug\LibraryAPI.BLL.pdb
